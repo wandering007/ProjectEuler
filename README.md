@@ -101,5 +101,5 @@ https://projecteuler.net/
 96	Su Doku	
 97	Large non-Mersenne prime	
 98	Anagramic squares	
-99	Largest exponential	
+99	Largest exponential
 100	Arranged probability
