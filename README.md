@@ -69,4 +69,34 @@
 67. Maximum path sum II
 68. Magic 5-gon ring 
 69. Totient maximum
-70. Totient permutation 71 Ordered fractions 72 Counting fractions 73 Counting fractions in a range 74 Digit factorial chains 75 Singular integer right triangles 76 Counting summations 77 Prime summations 78 Coin partitions 79 Passcode derivation 80 Square root digital expansion 81 Path sum: two ways 82 Path sum: three ways 83 Path sum: four ways 84 Monopoly odds 85 Counting rectangles 86 Cuboid route 87 Prime power triples 88 Product-sum numbers 89 Roman numerals 90 Cube digit pairs 91 Right triangles with integer coordinates 92 Square digit chains 93 Arithmetic expressions 94 Almost equilateral triangles 95 Amicable chains 96 Su Doku 97 Large non-Mersenne prime 98 Anagramic squares 99 Largest exponential 100 Arranged probability
+70. Totient permutation
+71. Ordered fractions
+72. Counting fractions
+73. Counting fractions in a range
+74. Digit factorial chains
+75. Singular integer right triangles
+76. Counting summations
+77. Prime summations
+78. Coin partitions
+79. Passcode derivation
+80. Square root digital expansion
+81. Path sum: two ways
+82. Path sum: three ways
+83. Path sum: four ways
+84. Monopoly odds
+85. Counting rectangles
+86. Cuboid route
+87. Prime power triples 
+88. Product-sum numbers
+89. Roman numerals
+90. Cube digit pairs
+91. Right triangles with integer coordinates
+92. Square digit chains
+93. Arithmetic expressions
+94. Almost equilateral triangles
+95. Amicable chains
+96. Su Doku
+97. Large non-Mersenne prime
+98. Anagramic squares
+99. Largest exponential
+100. Arranged probability
