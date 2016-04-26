@@ -1,4 +1,6 @@
 # ProjectEuler solve mathematics problems by programming https://projecteuler.net/
+My Friend Key: 648680_AJD6A9APBgH5mLHnwcScgPlHHrU8ZcpZ
+Welcome to be my friends and discuss math and programming together at ProjectEuler.net
 ##The list of the first 100 problems:
 1. Multiples of 3 and 5
 2. Even Fibonacci numbers
