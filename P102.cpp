@@ -64,6 +64,6 @@ int main()
         cnt++;
     }
     printf("%d\n", cnt);
-    printf("time cost: %lf", (double)(clock() - start) / CLOCKS_PER_SEC);
+    printf("time cost: %lf s", (double)(clock() - start) / CLOCKS_PER_SEC);
     return 0;
 }
