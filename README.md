@@ -1,5 +1,5 @@
 # ProjectEuler 
-*solve mathematics problems by programming*  
+*solve mathematics problems by programming and explore thinking*  
 https://projecteuler.net/   
 **The list of the first 100 problems:**  
 1. Multiples of 3 and 5  
