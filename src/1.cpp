@@ -4,6 +4,10 @@
 #include <vector>
 
 int main() {
+  std::cout << "====================================" << std::endl;
+  std::cout << "https://projecteuler.net/problem=1"
+            << "\n\nMultiples of 3 and 5" << std::endl;
+  std::cout << "====================================" << std::endl;
   const int N = 1000;
   std::vector<bool> is_multipler_3or5(N, false);
   int v = 0;

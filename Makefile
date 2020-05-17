@@ -9,12 +9,12 @@ LIB		:= lib
 LIBRARIES	:=
 
 ifeq ($(OS),Windows_NT)
-EXECUTABLE	:= $(SRCFILENAME).exe
+EXECUTABLE	:= $(PID).exe
 SOURCEDIRS	:= $(SRC)
 INCLUDEDIRS	:= $(INCLUDE)
 LIBDIRS		:= $(LIB)
 else
-EXECUTABLE	:= $(SRCFILENAME)
+EXECUTABLE	:= $(PID)
 SOURCEDIRS	:= $(shell find $(SRC) -type d)
 INCLUDEDIRS	:= $(shell find $(INCLUDE) -type d)
 LIBDIRS		:= $(shell find $(LIB) -type d)
@@ -23,7 +23,7 @@ endif
 CINCLUDES	:= $(patsubst %,-I%, $(INCLUDEDIRS:%/=%))
 CLIBS		:= $(patsubst %,-L%, $(LIBDIRS:%/=%))
 
-SOURCES		:= $(SOURCEDIRS)/$(SRCFILENAME).cpp
+SOURCES		:= $(SOURCEDIRS)/$(PID).cpp
 OBJECTS		:= $(SOURCES:.cpp=.o)
 
 all: $(BIN)/$(EXECUTABLE)
