@@ -17,7 +17,7 @@ int main() {
     }
     i += 2;
   }
-  std::cout << "the largest prime factor of the number " << N << ": "
+  std::cout << "The largest prime factor of the number " << N << ": "
             << largest_prime_factor << std::endl;
   return 0;
 }
