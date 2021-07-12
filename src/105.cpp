@@ -59,7 +59,7 @@ bool isSpecialSet(std::vector< int > &A)
 int main()
 {
 	clock_t start = clock();
-	std::ifstream input("p105_sets.txt");
+	std::ifstream input("105_sets.txt");
 	std::string line;
 	int res = 0;
 	while (std::getline(input, line))
