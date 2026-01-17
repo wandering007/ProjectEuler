@@ -1,38 +1,40 @@
 #include <iostream>
-#include <fstream>
 #include <vector>
-#include <sstream>
 #include<iomanip>
-#define eps 1e-8
+
 
 const std::vector<int> primes = {2, 3, 5, 7, 11, 13, 17};
-int best_n = 2 * 3 * 5 * 7 * 11 * 13 * 17; // -1 acts as "not set" or infinity here
+int best_n = 2 * 3 * 5 * 7 * 11 * 13 * 17;
 
-void solve(int target_divs, int p_idx, int current_n, int current_divs, int limit) {
+void solve(int target_divs, int p_idx, int current_n, int current_divs, int limit)
+{
     // failed to find a better solution
-    if (current_n >= best_n) {
+    if (current_n >= best_n)
+    {
         return;
     }
     // Check if we've met or exceeded the divisor requirement
-    if (current_divs >= target_divs) {
+    if (current_divs >= target_divs)
+    {
         best_n = current_n;
         return;
     }
 
     // Stop if we run out of primes
-    if (p_idx >= int(primes.size())) {
+    if (p_idx >= int(primes.size()))
+    {
         return;
     }
 
     // Try adding the current prime with exponent 'a'
     int next_n = current_n;
-    for (int a = 1; a <= limit; ++a) {        
+    for (int a = 1; a <= limit; ++a)
+    {
         next_n *= primes[p_idx];
         // Only recurse if this branch has potential to be better than best_n
         solve(target_divs, p_idx + 1, next_n, current_divs * (2 * a + 1), a);
     }
 }
-
 
 int main()
 {
