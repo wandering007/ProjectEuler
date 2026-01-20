@@ -46,7 +46,7 @@ int main()
     => vu = n^2, where v=x-n, u=y-n
     => n=p1^a1*p2^a2*...*pk^ak, where p1, p2, ..., pk are prime factors of n
     => n^2=p1^(2a1)*p2^(2a2)*...*pk^(2ak)
-    => combinations: ((2a1 + 1)*(2a2 + 1)*...*(2ak + 1) + 1[x=y=n]) / 2 > 1k
+    => combinations: ((2a1 + 1)*(2a2 + 1)*...*(2ak + 1) + 1[x=y=2n]) / 2 > 1k
     => 3 ^ 7 = 2187 > 1k, 2,3,5,7,11,13,17
     */
     solve(2001, 0, 1, 1, 9); // 2 ^ 19 > 2 * 3 * 5 * 7 * 11 * 13 * 17
